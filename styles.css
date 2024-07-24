@@ -1,0 +1,23 @@
+.biru{
+    color: #112e87;
+    font-weight: 700;
+}
+
+nav img{
+    margin-top: -3px;
+}
+
+
+.carousel1 img{
+    width: 100%;
+    height: 860px;
+
+}
+
+.carousel-caption h1{
+    font-weight: 600;
+ }
+.carousel-caption p{
+    font-weight: 600;
+    font-size: 22px;
+ }
