@@ -23,3 +23,36 @@ nav img{
     font-size: 22px;
     background-color: rgba(255, 255, 255, 0.849);
  }
+
+ .navbar {
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+ .navbar .biru {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Ubah sesuai kebutuhan */
+}
+.navbar.scrolled .biru{
+    color: #112e87;
+    font-weight: 700;
+}
+
+/* .navbar .navbar-brand img {
+    transition: all 0.5s;
+} */
+
+.navbar.scrolled .navbar-brand .logo-big {
+    display: none;
+}
+
+.navbar .navbar-brand .logo-small {
+    display: none;
+}
+
+.navbar.scrolled .navbar-brand .logo-small {
+    display: inline;
+}
